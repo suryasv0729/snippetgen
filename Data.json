@@ -1,0 +1,67 @@
+[
+  {
+    "label": "",
+    "type": "link",
+    "selector": "",
+    "apply_on": [""]
+  },
+  {
+    "label": "",
+    "type": "associate_link",
+    "selector": "",
+    "apply_on": [""]
+  },
+  {
+    "label": "",
+    "type": "click",
+    "delay": "1000",
+    "click_type": "click_once", //click_more
+    "scrape on": "each_click", //after_completion
+    "no_of_click": "", //enter the value if needed
+    "selector": "",
+    "apply_on": [""]
+  },
+  {
+    "label": "",
+    "type": "scroll",
+    "no_of_scroll": "", // enter the value if needed
+    "delay": "1000", //this is minimum delay
+    "apply_on": [""]
+  },
+  {
+    "label": "",
+    "type": "text",
+    "selector": "",
+    "regex": "", //use regex if needed otherwise this field is no need
+    "apply_on": [""]
+  },
+  {
+    "label": "",
+    "type": "attribute",
+    "selector": "",
+    "extract_attribute": "href", // enter the attribute which needed to extract
+    "apply_on": [""]
+  },
+  {
+    "label": "",
+    "type": "element",
+    "selector": "",
+    "apply_on": [""]
+  },
+  {
+    "label": "",
+    "type": "key_value",
+    "selector": "", // selector of whole element which contains both key and value
+    "key_selector": "", // selector of the key
+    "value_selector": "", // selector of the value
+    "apply_on": [""]
+  },
+  {
+    "label": "",
+    "type": "table",
+    "selector": "", //selector of the whole table
+    "header_row_selector": "", //selector of the header of the table"th"
+    "data_row_selector": "", //selector of the data of the table"td"
+    "apply_on": [""]
+  }
+]
