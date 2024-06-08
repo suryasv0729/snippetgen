@@ -6,7 +6,7 @@ const snippetOpt = [
     type: "click",
     delay: "1000",
     click_type: "click_once",
-    "scrape on": "each_click",
+    scrape_on: "each_click",
     no_of_click: "",
     selector: "",
     apply_on: [""],
